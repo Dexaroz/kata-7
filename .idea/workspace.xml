@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73d874e4-6689-4b9f-8050-0991af3b13f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/CsvGameDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/FileGameLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/GameDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/GameLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgchartz-11_7_2024.csv" afterDir="false" />
+    <list default="true" id="73d874e4-6689-4b9f-8050-0991af3b13f4" name="Changes" comment="First Commit!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvPokemonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/FilePokemonLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/model/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/CsvGameDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/FileGameLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/GameDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/GameLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgchartz-11_7_2024.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -36,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dexaroz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dexaroz/Kata-2.git&quot;,
+    &quot;accountId&quot;: &quot;1d03050d-d37b-44d7-981c-714e53696724&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -44,31 +58,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/video/Desktop/kata2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/INFORMÁTICA/TERCERO/1.- INGENIERIA DE SOFTWARE II/kata2/src/main/java/mock/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.software.ulpgc.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/INFORMÁTICA/TERCERO/1.- INGENIERIA DE SOFTWARE II/kata2/target",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/INFORMÁTICA/TERCERO/1.- INGENIERIA DE SOFTWARE II/kata2/src/main/java/mock/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2" />
-      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\src\main\resources" />
-      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\src\main\java" />
+      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target" />
+      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target\generated-sources" />
+      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target\classes" />
+      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.software.ulpgc.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Kata2" />
@@ -76,8 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="software.ulpgc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="software.ulpgc.Main" />
+      <module name="Kata2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="software.ulpgc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.software.ulpgc.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -106,12 +143,31 @@
       <workItem from="1731210933352" duration="998000" />
       <workItem from="1731212236943" duration="2915000" />
       <workItem from="1731274861830" duration="1293000" />
-      <workItem from="1731497888837" duration="2928000" />
+      <workItem from="1731497888837" duration="4180000" />
+      <workItem from="1731506550679" duration="342000" />
+      <workItem from="1733027146964" duration="5729000" />
+      <workItem from="1733509668528" duration="1140000" />
+      <workItem from="1734659167247" duration="67000" />
+      <workItem from="1736460314951" duration="1632000" />
+      <workItem from="1736998389271" duration="1436000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1731503325629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731503325629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
