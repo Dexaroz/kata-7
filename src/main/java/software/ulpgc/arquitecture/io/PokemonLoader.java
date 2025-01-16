@@ -1,6 +1,6 @@
-package software.ulpgc.io;
+package software.ulpgc.arquitecture.io;
 
-import software.ulpgc.model.Pokemon;
+import software.ulpgc.arquitecture.model.Pokemon;
 
 import java.io.IOException;
 import java.util.List;

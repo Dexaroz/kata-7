@@ -1,6 +1,6 @@
-package software.ulpgc.io;
+package software.ulpgc.arquitecture.io;
 
-import software.ulpgc.model.Pokemon;
+import software.ulpgc.arquitecture.model.Pokemon;
 
 public class CsvPokemonDeserializer implements PokemonDeserializer {
     @Override
@@ -9,7 +9,7 @@ public class CsvPokemonDeserializer implements PokemonDeserializer {
     }
 
     private Pokemon deserialize(String[] fields){
-        return new Pokemon(toInt(fields[1]), fields[2], toInt(fields[5]));
+        return new Pokemon(toInt(fields[1]), fields[2], toInt(fields[5]), toInt(fields[15]));
     }
 
     private int toInt(String field) {

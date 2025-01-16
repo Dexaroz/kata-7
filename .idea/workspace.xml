@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73d874e4-6689-4b9f-8050-0991af3b13f4" name="Changes" comment="First Commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvPokemonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/FilePokemonLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/model/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/swing/JFreeBarchartDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/swing/JFreeChartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/swing/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/control/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/control/SelectStatisticsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/control/ToggleStatisticsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/BarchartLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/PokemonBarchartLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/model/Barchart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/view/BarchartDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/view/SelectStatisticsDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/CsvGameDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/FileGameLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/GameDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/GameLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vgchartz-11_7_2024.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/CsvDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvPokemonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/CsvPokemonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/FilePokemonLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/FilePokemonLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/PokemonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/PokemonLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/model/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/model/Pokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Dexaroz/Kata-2.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Dexaroz/Kata-2&quot;,
     &quot;accountId&quot;: &quot;1d03050d-d37b-44d7-981c-714e53696724&quot;
   }
 }</component>
@@ -62,6 +68,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.software.ulpgc.Main.executor": "Run",
+    "Application.software.ulpgc.app.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -76,6 +83,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +99,7 @@
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.software.ulpgc.Main">
+  <component name="RunManager" selected="Application.software.ulpgc.app.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Kata2" />
@@ -99,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="software.ulpgc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="software.ulpgc.Main" />
+    <configuration name="software.ulpgc.app.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="software.ulpgc.app.Main" />
       <module name="Kata2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="software.ulpgc.*" />
+          <option name="PATTERN" value="software.ulpgc.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.software.ulpgc.Main" />
+        <item itemvalue="Application.software.ulpgc.app.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -150,6 +158,8 @@
       <workItem from="1734659167247" duration="67000" />
       <workItem from="1736460314951" duration="1632000" />
       <workItem from="1736998389271" duration="1436000" />
+      <workItem from="1737053905652" duration="544000" />
+      <workItem from="1737054624713" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
