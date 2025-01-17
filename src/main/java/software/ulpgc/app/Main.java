@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         File path = new File("");
         String Path = path.getAbsolutePath();
-        String urlInput = "https://raw.githubusercontent.com/Carlosqchao/Resources/refs/heads/main/pokedex_(Update.04.20).csv";
+        String urlInput = "https://raw.githubusercontent.com/Dexaroz/Resources/refs/heads/master/pokedex_(Update.04.20).csv";
         String outputPath = Path + "\\pokedex_(Update.04.20).csv";
         downloadCsv(urlInput,outputPath);
         File file = new File("pokedex_(Update.04.20).csv");
