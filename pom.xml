@@ -7,7 +7,7 @@
         <project.groupId>software.ulpgc</project.groupId>
         <project.artifactId>kata-7</project.artifactId>
         <project.version>1.0-SNAPSHOT</project.version>
-        <maven.compiler.source>java --version</maven.compiler.source>
+        <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
