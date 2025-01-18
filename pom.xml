@@ -3,19 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <project.groupId>software.ulpgc</project.groupId>
+        <project.artifactId>kata-7</project.artifactId>
+        <project.version>1.0-SNAPSHOT</project.version>
+        <maven.compiler.source>java --version</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
 
     <groupId>${project.groupId}</groupId>
     <artifactId>${project.artifactId}</artifactId>
     <version>${project.version}</version>
-
-    <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.groupId>software.ulpgc</project.groupId>
-        <project.artifactId>kata_3</project.artifactId>
-        <project.version>1.0-SNAPSHOT</project.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -24,5 +22,64 @@
             <version>1.5.5</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.6.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>${project.groupId}.app.Main</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>jpackage</executable>
+                    <arguments>
+                        <argument>--input</argument>
+                        <argument>target/</argument>
+                        <argument>--name</argument>
+                        <argument>${project.artifactId}</argument>
+                        <argument>--main-jar</argument>
+                        <argument>${project.artifactId}.jar</argument>
+                        <argument>--main-class</argument>
+                        <argument>${project.groupId}.app.Main</argument>
+                        <argument>--type </argument>
+                        <argument>exe</argument>
+                        <argument>--icon</argument>
+                        <argument>pokemon.ico</argument>
+                        <argument>--win-dir-chooser</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>

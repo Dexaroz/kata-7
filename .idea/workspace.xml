@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73d874e4-6689-4b9f-8050-0991af3b13f4" name="Changes" comment="First Commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/swing/JFreeBarchartDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/swing/JFreeChartAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/swing/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/control/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/control/SelectStatisticsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/control/ToggleStatisticsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/BarchartLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/PokemonBarchartLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/model/Barchart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/view/BarchartDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/view/SelectStatisticsDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokemon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/CsvDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/CsvPokemonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/CsvPokemonDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/FilePokemonLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/FilePokemonLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/PokemonDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/io/PokemonLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/io/PokemonLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/model/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/arquitecture/model/Pokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +34,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Dexaroz/Kata-2&quot;,
+    &quot;url&quot;: &quot;https://github.com/Dexaroz/kata-3&quot;,
     &quot;accountId&quot;: &quot;1d03050d-d37b-44d7-981c-714e53696724&quot;
   }
 }</component>
@@ -69,6 +51,16 @@
     "Application.Main.executor": "Run",
     "Application.software.ulpgc.Main.executor": "Run",
     "Application.software.ulpgc.app.Main.executor": "Run",
+    "Maven.Kata_3 [clean].executor": "Run",
+    "Maven.Kata_3 [compile].executor": "Run",
+    "Maven.Kata_3 [deploy].executor": "Run",
+    "Maven.Kata_3 [install].executor": "Run",
+    "Maven.Kata_3 [package].executor": "Run",
+    "Maven.Kata_3 [site].executor": "Run",
+    "Maven.Kata_3 [test].executor": "Run",
+    "Maven.Kata_3 [validate].executor": "Run",
+    "Maven.Kata_3 [verify].executor": "Run",
+    "Maven.kata-7 [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -92,11 +84,11 @@
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\video\Desktop\kata-7" />
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2" />
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target" />
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target\generated-sources" />
       <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\target\classes" />
-      <recent name="D:\INFORMÁTICA\TERCERO\1.- INGENIERIA DE SOFTWARE II\kata2\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.software.ulpgc.app.Main">
@@ -109,7 +101,6 @@
     </configuration>
     <configuration name="software.ulpgc.app.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="software.ulpgc.app.Main" />
-      <module name="Kata2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="software.ulpgc.app.*" />
@@ -160,6 +151,12 @@
       <workItem from="1736998389271" duration="1436000" />
       <workItem from="1737053905652" duration="544000" />
       <workItem from="1737054624713" duration="4957000" />
+      <workItem from="1737189891920" duration="1684000" />
+      <workItem from="1737191664819" duration="29000" />
+      <workItem from="1737191777377" duration="262000" />
+      <workItem from="1737192046246" duration="131000" />
+      <workItem from="1737214742057" duration="1306000" />
+      <workItem from="1737216130798" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
